@@ -1,0 +1,30 @@
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+EXIT TICKET PERTEMUAN 1: ORIENTASI & LAPISAN TEKNOLOGI CERDAS
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+INSTRUKSI MAHASISWA:
+Silakan isi Exit Ticket ini sebelum meninggalkan kelas/sesi:
+1. Lapisan mana yang paling saya pahami? (Data / BI / ML / LLM)
+2. Lapisan mana yang masih saya campuradukkan?
+3. Bukti apa yang membuat sebuah sistem layak disebut “cerdas” dan bertanggung jawab?
+
+--------------------------------------------------------------------------------
+PEMBAHASAN & JAWABAN:
+
+1. PEMAHAMAN LAPISAN ARSITEKTUR:
+   - Lapisan Data: Fokus pada rekayasa pipeline, integritas data mentah, skema, dan penyimpanan (Apa yang tercatat?).
+   - Lapisan BI (Business Intelligence): Visualisasi deskriptif, agregasi metrik, dan analisis tren historis (Bagaimana keadaannya?).
+   - Lapisan ML (Machine Learning): Pemodelan prediktif, estimasi profitabilitas/risiko, dan generalisasi dari pola historis ke data baru (Apa yang mungkin terjadi?).
+   - Lapisan LLM: Antarmuka bahasa alami, penjelasan bukti (evidence narrative), dan penyajian konteks berbasis grounding (Bagaimana evidence dijelaskan?).
+
+2. MENGURANGI KEBINGUNGAN ANTAR-LAPISAN (COMMON CONFUSIONS):
+   - BI vs. ML: BI hanya menyajikan fakta historis/rule static (`IF-THEN`), sedangkan ML mempelajari bobot/pola dari data untuk memprediksi data yang belum terlihat.
+   - ML vs. LLM: ML menangani keputusan statistik berstruktur (klasifikasi/regresi), sedangkan LLM menyintesis konteks bahasa alami (LLM membutuhkan grounding dari ML/BI agar tidak berhalusinasi).
+
+3. BUKTI SISTEM "CERDAS" DAN BERTANGGUNG JAWAB:
+   - Cerdas: Mampu melakukan inferensi pada data baru (bukan sekadar menghafal/rule hardcoded), menangani variabilitas input, dan menyajikan proyeksi terukur.
+   - Bertanggung Jawab: Memiliki grounding fakta (traceable ke data sumber), transparan dalam asumsi dan failure modes (mengetahui batas kemampuannya), bebas dari bias berbahaya, serta menjaga privasi dan akuntabilitas manusia.
+
+--------------------------------------------------------------------------------
+PENGANTAR MINGGU DEPAN (PERTEMUAN 2):
+Minggu depan mahasiswa tidak langsung memilih algoritma; mereka akan belajar mengubah dataset menjadi masalah yang sah dan terukur.
